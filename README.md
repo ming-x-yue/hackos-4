@@ -5,7 +5,7 @@ Hey! Welcome to HackOS 4. This repository contains technical information on the 
 With this repository, we hope to provide you a starting point to work on your machine learning models and hack on the Single-Cell Perturbations dataset! 
 
 ## Dataset
-Our main dataset is from the NeurIPS 2023 Competition, and the main training set can be found in `dataset/de_train.parquet`. 
+Our main dataset is from the NeurIPS 2023 Competition, and the main training set can be found in `dataset/de_train_split.parquet`. 
 The Jupyter Notebook `dataset.ipynb` demonstrates how to load this dataset, convert and save it as a CSV file, and convert it into popular ML formats (such as Tensors). 
 
 All the relevant datasets can be found on the official Kaggle site for the NeurIPS 2023 Competition. Feel free to use any dataset(s) that follow the competition guidelines! 
