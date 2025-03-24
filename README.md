@@ -4,6 +4,16 @@
 Hey! Welcome to HackOS 4. This repository contains technical information on the challenge, including guides and a brief dataset visualization.
 With this repository, we hope to provide you a starting point to work on your machine learning models and hack on the Single-Cell Perturbations dataset! 
 
+## Getting Started
+To get started with this repository:
+
+1. Fork the repository by visiting https://github.com/aniketsrinivasan/hackos-4 and clicking the "Fork" button in the top-right corner
+2. Clone your forked repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/hackos-4.git
+cd hackos-4
+```
+
 ## Dataset
 Our main dataset is from the NeurIPS 2023 Competition, and the main training set can be found in `dataset/de_train_split.parquet`. 
 The Jupyter Notebook `dataset.ipynb` demonstrates how to load this dataset, convert and save it as a CSV file, and convert it into popular ML formats (such as Tensors). 
